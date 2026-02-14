@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { OrderItem } from '../types';
+import { OrderItem } from '../../types.ts';
 
 interface CartDrawerProps {
   isOpen: boolean;

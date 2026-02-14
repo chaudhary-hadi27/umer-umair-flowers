@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TESTIMONIALS } from '../constants';
+import { TESTIMONIALS } from '../../constants.tsx';
 
 const Testimonials: React.FC = () => {
   return (

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { OrderItem } from '../types';
-import { storageService } from '../services/storageService';
+import { OrderItem } from '../../types.ts';
+import { storageService } from '../services/storageService.ts';
 
 interface CheckoutFormProps {
   items: OrderItem[];

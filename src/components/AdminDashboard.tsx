@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { storageService } from '../services/storageService';
-import { Booking, Order } from '../types';
+import { storageService } from '../services/storageService.ts';
+import { Booking, Order } from '../../types.ts';
 
 const AdminDashboard: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

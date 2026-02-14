@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { PRODUCTS } from '../constants';
-import { Product } from '../types';
+import { PRODUCTS } from '../../constants.tsx';
+import { Product } from '../../types.ts';
 
 interface ShopProps {
   onAddToCart: (product: Product) => void;

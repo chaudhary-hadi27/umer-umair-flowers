@@ -1,5 +1,5 @@
-import { Booking, Order } from '../types';
-import { supabase } from './supabase';
+import { Booking, Order } from '../../types.ts';
+import { supabase } from './supabase.ts';
 
 export const storageService = {
   // Bookings

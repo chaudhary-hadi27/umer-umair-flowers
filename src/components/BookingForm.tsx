@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Service } from '../types';
-import { storageService } from '../services/storageService';
+import { Service } from '../../types.ts';
+import { storageService } from '../services/storageService.ts';
 
 interface BookingFormProps {
   preselectedService?: Service;

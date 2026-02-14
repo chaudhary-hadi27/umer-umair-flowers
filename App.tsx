@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import BookingForm from './components/BookingForm';
-import AdminDashboard from './components/AdminDashboard';
-import Contact from './components/Contact';
-import Testimonials from './components/Testimonials';
-import Shop from './components/Shop';
-import CartDrawer from './components/CartDrawer';
-import WishlistDrawer from './components/WishlistDrawer';
-import CheckoutForm from './components/CheckoutForm';
-import WhatsAppButton from './components/WhatsAppButton';
+import Navbar from '@/src/components/Navbar';
+import Hero from '@/src/components/Hero';
+import Services from '@/src/components/Services';
+import BookingForm from '@/src/components/BookingForm';
+import AdminDashboard from '@/src/components/AdminDashboard';
+import Contact from '@/src/components/Contact';
+import Testimonials from '@/src/components/Testimonials';
+import Shop from '@/src/components/Shop';
+import CartDrawer from '@/src/components/CartDrawer';
+import WishlistDrawer from '@/src/components/WishlistDrawer';
+import CheckoutForm from '@/src/components/CheckoutForm';
+import WhatsAppButton from '@/src/components/WhatsAppButton';
 import { ViewState, Service, Product, OrderItem } from './types';
 
 const App: React.FC = () => {

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ViewState } from '../types';
+import { ViewState } from '../../types.ts';
 
 interface NavbarProps {
   onNavigate: (view: ViewState) => void;

@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { SERVICES } from '../constants';
-import { Service } from '../types';
+import { SERVICES } from '../../constants.tsx';
+import { Service } from '../../types.ts';
 
 interface ServicesProps {
   onBook: (service: Service) => void;

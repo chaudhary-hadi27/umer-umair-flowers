@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { generateFlowerHook } from '../services/geminiService';
-import { CAROUSEL_IMAGES } from '../constants';
+import { generateFlowerHook } from '../services/geminiService.ts';
+import { CAROUSEL_IMAGES } from '../../constants.tsx';
 
 interface HeroProps {
   onBook: () => void;
