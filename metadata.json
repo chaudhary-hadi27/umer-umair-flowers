@@ -1,0 +1,8 @@
+
+{
+  "name": "Umer & Umair Flowers",
+  "description": "Premium floral services in Pakistan specializing in car decorations, wedding stages, and luxury bouquets. Elegant, minimal, and user-friendly booking experience.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
